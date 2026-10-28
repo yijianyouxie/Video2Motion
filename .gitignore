@@ -1,0 +1,37 @@
+# ===== 第三方库 / 数据 / 模型权重（体积大，不入库）=====
+GVHMR/
+WHAM/
+SMPL_python_v.1.1.0/
+models_smplx_v1_1/
+*.zip
+*.7z
+*.xltd
+*.cfg
+
+# ===== 生成产物 =====
+bvh_out/
+wham_vis/
+eval/
+视频转动作小强确认/
+
+# ===== 中间文件 =====
+bip_export/_work/
+**/__pycache__/
+*.pyc
+
+# ===== 运行日志 / 参数（每次运行覆盖）=====
+*_result.txt
+*_params.txt
+
+# ===== 视频 =====
+*.mp4
+
+# ===== 调试残留 =====
+bip_export/_test*
+report-desktop.png
+
+# ===== 编辑器 / 工具 =====
+.claude/
+.playwright-mcp/
+.vscode/
+.idea/
