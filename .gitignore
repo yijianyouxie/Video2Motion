@@ -12,7 +12,6 @@ models_smplx_v1_1/
 bvh_out/
 wham_vis/
 eval/
-视频转动作小强确认/
 
 # ===== 中间文件 =====
 bip_export/_work/
@@ -35,3 +34,6 @@ report-desktop.png
 .playwright-mcp/
 .vscode/
 .idea/
+
+# ===== 例外：交付样本需要入库 =====
+!视频转动作小强确认.7z
